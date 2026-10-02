@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Click & Collect Market — Tu marketplace con recogida en tienda</title>
+  <meta name="description" content="Marketplace tipo Amazon para vendedores. Publica tu catálogo, sube fotos y vende con Click & Collect. Modo beta: sin cobros reales." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f1115'/%3E%3Cpath d='M9 22V10h3l4 7 4-7h3v12h-3v-7l-4 6-4-6v7z' fill='%23e8a33d'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#/" class="brand" aria-label="Inicio">
+        <span class="brand-mark">C&amp;C</span>
+        <span class="brand-text">Click<strong>&amp;</strong>Collect</span>
+      </a>
+
+      <form class="search" id="searchForm" role="search">
+        <input type="search" id="searchInput" placeholder="Busca productos, marcas o tiendas…" aria-label="Buscar" autocomplete="off" />
+        <button type="submit" aria-label="Buscar">🔍</button>
+      </form>
+
+      <nav class="header-actions">
+        <a href="#/sell" class="btn-ghost" id="navSell">Vender</a>
+        <a href="#/dashboard" class="btn-ghost hide-logged" id="navDashboard">Mi panel</a>
+        <button class="btn-ghost hide-logged" id="navLogout" type="button">Salir</button>
+        <a href="#/cart" class="cart-btn" aria-label="Carrito">
+          🛒<span class="cart-count" id="cartCount">0</span>
+        </a>
+      </nav>
+    </div>
+    <nav class="cat-bar" id="catBar" aria-label="Categorías"></nav>
+  </header>
+
+  <main id="app" class="app"><div class="loading">Cargando…</div></main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h4>Click &amp; Collect Market</h4>
+        <p>Marketplace con recogida en tienda. Compra cerca de ti y retira cuando quieras.</p>
+      </div>
+      <div>
+        <h4>Vendedores</h4>
+        <a href="#/sell">Abre tu tienda</a>
+        <a href="#/dashboard">Panel de vendedor</a>
+      </div>
+      <div>
+        <h4>Ayuda</h4>
+        <a href="#/">Cómo funciona</a>
+        <a href="#/">Click &amp; Collect</a>
+      </div>
+      <div class="footer-beta">
+        <span class="badge-beta">BETA</span>
+        <p>Versión de prueba. Los pagos están simulados y no se cobra nada.</p>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> Click &amp; Collect Market · Demo</p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

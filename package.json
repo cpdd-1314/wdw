@@ -1,0 +1,14 @@
+{
+  "name": "clickcollect-market",
+  "version": "1.0.0",
+  "description": "Marketplace tipo Amazon con Click & Collect - modo beta (sin cobros reales)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}

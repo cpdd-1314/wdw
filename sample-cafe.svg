@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7c3a12"/><stop offset="1" stop-color="#4a2408"/></linearGradient></defs>
+  <rect width="600" height="600" fill="url(#g)"/>
+  <g fill="#fff">
+    <path d="M230 280 h140 v90 a70 70 0 0 1 -140 0 z" opacity="0.95"/>
+    <path d="M370 300 a45 45 0 0 1 0 90" fill="none" stroke="#fff" stroke-width="14"/>
+  </g>
+  <path d="M260 230 q10 -25 0 -50 M300 230 q10 -25 0 -50 M340 230 q10 -25 0 -50" stroke="#e8a33d" stroke-width="8" fill="none"/>
+  <text x="300" y="500" fill="#fff" font-family="Inter,Arial" font-size="34" font-weight="700" text-anchor="middle">Café de especialidad</text>
+</svg>

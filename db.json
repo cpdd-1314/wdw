@@ -1,0 +1,68 @@
+{
+  "sellers": [
+    {
+      "id": "demo-seller-001",
+      "email": "hola@clickcollect.demo",
+      "password": "d47d6a9d1cbeb9673a7570e7cd6666a7:cba4712c869038d911496fadd79e120293efe86ffcb93410c15693a8e7bcae54688c52572a6ec9558880260170dee6dfb347db9cf8151d09f013f285eba096d5",
+      "company": {
+        "name": "Tienda Demo Click & Collect",
+        "taxId": "ESB12345678",
+        "address": "Calle del Comercio 12",
+        "city": "Madrid",
+        "phone": "+34 911 000 000",
+        "category": "electronica",
+        "description": "Tienda de demostración con recogida en tienda. Productos de ejemplo para explorar la plataforma.",
+        "logo": ""
+      },
+      "createdAt": "2026-10-02T12:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "demo-prod-001",
+      "sellerId": "demo-seller-001",
+      "companyName": "Tienda Demo Click & Collect",
+      "title": "Auriculares inalámbricos X200",
+      "description": "Sonido envolvente, cancelación de ruido y 30h de batería. Recógelos hoy mismo en nuestra tienda de Madrid.",
+      "category": "electronica",
+      "price": 59.99,
+      "stock": 12,
+      "images": ["/uploads/sample-auriculares.svg"],
+      "pickupAddress": "Calle del Comercio 12",
+      "pickupCity": "Madrid",
+      "pickupInstructions": "Recoge en mostrador preguntando por tu pedido.",
+      "createdAt": "2026-10-02T12:01:00.000Z"
+    },
+    {
+      "id": "demo-prod-002",
+      "sellerId": "demo-seller-001",
+      "companyName": "Tienda Demo Click & Collect",
+      "title": "Café de especialidad 1kg",
+      "description": "Tueste medio, notas a cacao y avellana. Molido bajo pedido. Recogida en tienda.",
+      "category": "alimentos",
+      "price": 14.5,
+      "stock": 40,
+      "images": ["/uploads/sample-cafe.svg"],
+      "pickupAddress": "Calle del Comercio 12",
+      "pickupCity": "Madrid",
+      "pickupInstructions": "Retira en la zona de cafetería.",
+      "createdAt": "2026-10-02T12:02:00.000Z"
+    },
+    {
+      "id": "demo-prod-003",
+      "sellerId": "demo-seller-001",
+      "companyName": "Tienda Demo Click & Collect",
+      "title": "Mochila urbana resistente al agua",
+      "description": "20L, portátil incluido, material reciclado. Perfecta para la ciudad. Click & Collect.",
+      "category": "moda",
+      "price": 39.0,
+      "stock": 8,
+      "images": ["/uploads/sample-mochila.svg"],
+      "pickupAddress": "Calle del Comercio 12",
+      "pickupCity": "Madrid",
+      "pickupInstructions": "Recoge en mostrador preguntando por tu pedido.",
+      "createdAt": "2026-10-02T12:03:00.000Z"
+    }
+  ],
+  "orders": []
+}
